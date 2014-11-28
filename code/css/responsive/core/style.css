@@ -1,0 +1,226 @@
+/*
+Theme Name: Responsive Child
+Description: Responsive Child Theme
+
+Template: responsive
+Version: 1.0.0
+Text Domain: responsive-child
+*/
+
+#logo {
+    float: left;
+    margin-left: -150px;
+}
+
+#wrapper {
+    border-style: none;
+}
+
+.site-name a {
+    color: #800000;
+}
+
+.page .entry-title {
+    display: none;
+}
+
+/****** Address Finder field *******/
+
+ul.af_list {
+    width: 350px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: solid 1px #999;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 12px;
+
+}
+
+li.af_item {
+    cursor: pointer;
+    padding: 0 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+li.af_hover {
+    background-color: #970110;
+    color: white;
+}
+
+li.af_footer {
+    font-size: 0.8em;
+    color: #666;
+    text-align: right;
+}
+
+/*************/
+
+/****** Gravity Forms custom style *******/
+
+.gform_wrapper .gform_page_footer {
+    clear: both;
+}
+
+body .gform_wrapper {
+    overflow: inherit;
+    margin: 0;
+    max-width: 98%
+}
+
+body .gform_wrapper .gform_body .center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 45%;
+}
+
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=email],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=tel],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=url],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=number],
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=password],
+body .gform_wrapper .gform_body .gform_fields .gfield select,
+body .gform_wrapper .gform_body .gform_fields .gfield textarea {
+    font-size: 13px;
+}
+
+body .qty_input input {
+    width: 25px !important;
+    padding: 3px 0px 4px 0px !important;
+    text-align: center !important;
+
+}
+
+body .gform_wrapper textarea {
+    outline-style: none;
+    font-size: 13px;
+    font-family: inherit;
+    letter-spacing: normal;
+    padding: 4px 2px 0px 2px;
+    resize: none;
+}
+
+body .gform_wrapper ul.right_label li,
+body .gform_wrapper form ul.right_label li,
+body .gform_wrapper ul.left_label li,
+body .gform_wrapper form ul.left_label li {
+    margin-bottom: 0px;
+}
+
+body .gform_wrapper ul.right_label li ul.gfield_radio li,
+body .gform_wrapper form ul.right_label li ul.gfield_radio li,
+body .gform_wrapper ul.left_label li ul.gfield_radio li,
+body .gform_wrapper form ul.left_label li ul.gfield_radio li,
+body .gform_wrapper ul.right_label li ul.gfield_checkbox li,
+body .gform_wrapper form ul.right_label li ul.gfield_checkbox li,
+body .gform_wrapper ul.left_label li ul.gfield_checkbox li,
+body .gform_wrapper form ul.left_label li ul.gfield_checkbox li {
+    margin-bottom: 0px;
+
+}
+
+body .gform_wrapper select {
+    font-size: 11px;
+    font-family: inherit;
+    padding: 5px 0 0px 0;
+    letter-spacing: normal;
+}
+
+body .gform_wrapper .gform_heading {
+    width: 98%;
+    margin-bottom: 0px;
+}
+
+body .gform_wrapper .top_label .gfield_label {
+    margin: 0;
+    font-weight: bold;
+    display: -moz-inline-stack;
+    display: inline-block;
+    line-height: 1.2;
+}
+
+body .gform_wrapper .left_label .gfield_label {
+    margin: 0;
+}
+
+body .gform_wrapper .right_label .gfield_label {
+    margin: 0;
+}
+
+body .gform_wrapper li.gfield {
+    margin: 0;
+}
+
+body .gform_wrapper .gfield_checkbox li label,
+body .gform_wrapper .gfield_radio li label {
+    /*  display: block; */
+    margin: 0 0 0 16px;
+    padding-right: 15px;
+
+    width: auto;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+body .gform_wrapper .gfield_checkbox li input[type=checkbox],
+body .gform_wrapper .gfield_radio li input[type=radio],
+body .gform_wrapper .gfield_checkbox li input {
+    /* float: left; */
+    margin-top: 6px;
+}
+
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
+    margin-top: 5px;
+    margin-bottom: 5px !important;
+    padding-left: 10px !important;
+}
+
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label,
+body .gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container {
+    margin-top: 5px;
+}
+
+body .gform_wrapper .gfield_checkbox li,
+body .gform_wrapper .gfield_radio li {
+    margin: 0 0 0px 0;
+    line-height: 1.3em;
+}
+
+body .gform_wrapper .top_label span.ginput_total {
+    margin: 0px 0;
+}
+
+/* multi-page steps */
+body #gform_wrapper_1 .gf_page_steps {
+    height: 62px;
+    width: auto;
+    margin-bottom: 10px;
+    padding: 38px 0 0 0;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(gravityforms_custom/unfilledArrow.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+body .gform_wrapper .gf_step {
+    font-size: 16px;
+    height: 16px;
+    -moz-opacity: 0.3;
+    -khtml-opacity: 0.3;
+    opacity: 0.3;
+}
+
+body .gform_wrapper .gf_step.gf_step_active {
+    font-weight: bold;
+}
+
+body .gform_wrapper .top_label .gfield_list {
+    width: 50%;
+}
+
+/*******************************/
